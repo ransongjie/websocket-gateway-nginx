@@ -4,8 +4,19 @@
 - websocket
 - webhttp
 
-# 过程
-建立连接
+# 使用
+测试 连接websocket服务
+1. nginx.conf 启动nginx
+3. 启动项目 websocket gateway webhttp
+4. index.html
+5. 连接按钮
+6. 输入消息 点击发送按钮 广播按钮
+
+测试 连接webhttp服务
+1. 打开浏览器 输入 `http://localhost:9091/one/xcrj/name` 响应 xcrj
+
+
+# 建立连接过程
 ```
 websocket
     index.html
